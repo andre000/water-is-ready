@@ -1,0 +1,25 @@
+{
+  "name": "water-is-ready",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Andre L. Adriano",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/deeplab": "^0.1.1",
+    "@tensorflow/tfjs": "^1.7.4",
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "inkjet": "^2.1.2",
+    "node-rtsp-recorder": "^1.0.3",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
